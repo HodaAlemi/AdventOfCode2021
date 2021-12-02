@@ -1,6 +1,6 @@
 
 
-object Day1 extends App{
+object Day1 extends App {
 
   val stream = getClass.getResourceAsStream("/day1.txt")
   val inputLines: Iterator[String] = scala.io.Source.fromInputStream(stream).getLines
